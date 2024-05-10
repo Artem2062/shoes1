@@ -1,0 +1,80 @@
+* { font-family: "Ubuntu Sans Mono", monospace; }
+.box2{
+    
+    margin-left:3%;
+    margin-right: 3%;
+    height: 1000px;
+    background-size:cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 150px;
+    
+}
+h1{
+    color: aliceblue;
+    font-size:50px;
+    font-weight: 800;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+.button{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    height: 60px;
+    background-color: rgb(159, 39, 175);
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30%;
+}
+.lastButton{
+    margin-bottom: 20px;
+}
+.line{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 1px;
+    background-color: gray;
+}
+.box1{
+    height: 1700px;
+    margin-left:25%;
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    background-color: rgba(135, 238, 221, 0.801);
+    padding-top: 80px;
+
+}
+body{
+    background-color: black;
+    margin: 0;
+    background-image:url("https://cdn.discordapp.com/attachments/1102503718689181706/1238084605408448552/photo_2024-05-05_18-03-14.jpg?ex=663dffa4&is=663cae24&hm=550bea2cc87bcc357a02913ae131cc5f4fd61dff34f18f92f654488216855dc6&");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
